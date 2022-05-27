@@ -1,3 +1,4 @@
+/* Main Form Box */
 #main{
     background-image: linear-gradient(to bottom,rgba(224, 180, 150, 0.993), rgba(223, 159, 217, 0.788) );
     display: flex;
@@ -8,24 +9,24 @@
     margin-top: 80px;
     margin-bottom: 65px;
     text-align: center;
-    /* font-size: 20px; */
     font-family: 'Montserrat', 'sansserif';
     box-shadow: 3px 3px 30px 0px #a5a5a5;
 }
 
- 
-
+/* For the flex of main box */
 #mainFlex{
     display: flex;
     justify-content: center;
 }
 
+/* For the LPU logo */
 #lpuLogoImage{
     height: 100px;
     width:45%;
     margin-bottom: 0px;
 }
 
+/* For the Head of MyClass */
 #myclass{
     color: white;
     font-size: 41px;
@@ -33,6 +34,7 @@
     margin-top: 0px;
 }
 
+/* For the desc of myclass */
 #ums{
     color: white;
     font-size: 13px;
@@ -40,10 +42,12 @@
     margin-bottom: 0px;
 }
 
+/* For the form */
 #form{
     margin-top: 57px;
 }
 
+/* For the placeholder */
 ::placeholder{
     font-size: 20px;
     color: rgba(255, 255, 255, 0.76);
@@ -51,6 +55,7 @@
     
 }
 
+/* For the username box */
 input[type=text]{
     background: none;    
     font-weight: 500;
@@ -72,6 +77,8 @@ input[type=text]{
     font-family: 'Montserrat', 'sans-serif';
 
 }
+
+/* When username box is in focus */
 input[type=text]:focus{
     border-radius: 0px;
     background-color: rgb(234, 238, 241);
@@ -85,6 +92,7 @@ input[type=text]:focus{
     
 }
 
+/* For the password box */
 input[type=password]{
     background: none;
     font-weight: 500;
@@ -103,8 +111,9 @@ input[type=password]{
     border-left-style: hidden;
     border-bottom-style:solid;
     font-family: 'Montserrat', 'sans-serif';
-
 }
+
+/* When the password box is in focus */
 input[type=password]:focus{
     border-radius: 0px;
     background-color: rgb(234, 238, 241);
@@ -118,6 +127,7 @@ input[type=password]:focus{
     
 }
 
+/* For the login button */
 #button{
     height: 60px;
     margin-top: 50px;
@@ -132,9 +142,9 @@ input[type=password]:focus{
     letter-spacing: 00.01em;
     font-weight: 500;
     font-family: 'Montserrat', 'sans-serif';
-
 }
 
+/* When we hover on the login button */
 #button:hover{
     color: rgb(255, 255, 255);
     background-color: rgba(255, 228, 233, 0.692);
@@ -143,6 +153,7 @@ input[type=password]:focus{
 
 }
 
+/* For the codetantra logo */
 #codetantraImage{
     height: 20px;
     width: 165px;
@@ -150,7 +161,7 @@ input[type=password]:focus{
     margin-top: 6px;
 }  
 
-
+/* For the desc of codetantra */
 #lastText{
     color: white;
     font-size: 16px;
@@ -158,5 +169,3 @@ input[type=password]:focus{
     margin-bottom: 10px;
     margin-top: 22px;
 }
-
-
